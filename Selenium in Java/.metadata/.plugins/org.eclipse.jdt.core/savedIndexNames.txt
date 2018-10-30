@@ -1,14 +1,3 @@
 INDEX VERSION 1.131+D:\Learning Java Programs\Selenium in Java\.metadata\.plugins\org.eclipse.jdt.core
-3156221243.index
-2972781258.index
-619890628.index
-3340717378.index
-4207452691.index
-1801388241.index
-3073572474.index
-3964241192.index
-3423253026.index
-407269520.index
-2907772389.index
+1057238688.index
 3335383063.index
-2197218091.index
