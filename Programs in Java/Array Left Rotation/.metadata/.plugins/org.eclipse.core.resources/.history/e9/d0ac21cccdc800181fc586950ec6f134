@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class LeftRotationTest {
+
+	@Test
+	public void test() {
+		LeftRotation rotatedArray = new LeftRotation();
+		int result = rotatedArray.arrayRotation(6, [1,2,3,4,5,6], 2);
+		assertEquals([3,4,5,6,1,2], result);
+	}
+
+}

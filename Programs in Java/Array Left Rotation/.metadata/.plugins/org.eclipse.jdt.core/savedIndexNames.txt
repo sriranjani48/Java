@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\Learning Java Programs\Programs in Java\Array Left Rotation\.metadata\.plugins\org.eclipse.jdt.core
+3682230866.index
+3836746395.index
+1073205975.index
+2697083591.index

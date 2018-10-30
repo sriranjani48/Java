@@ -1,0 +1,17 @@
+//import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+class EvenOddTest {
+
+	@Test
+	void testEvenodd() {
+		//fail("Not yet implemented");
+				EvenOdd ob = new EvenOdd();
+				String result = ob.evenodd(10);
+				
+				Assert.assertEquals("Even", result);	
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class Calculation {
+	static int count = 0;
+
+	public static void Display() {
+		count++;
+		System.out.println(count);
+	}
+
+	public static void main(String args[]) {
+		Calculation c1 = new Calculation();
+		c1.Display();
+		Calculation.Display();
+	}
+}

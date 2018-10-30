@@ -1,0 +1,16 @@
+package testing;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestPrivateConstructor {
+
+	@Test
+	void test() {
+		Student student = new Student(111, "Sri");
+		
+		Assert.assertEquals("111 Sri", student.display());
+	}
+
+}

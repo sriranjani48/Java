@@ -1,0 +1,6 @@
+
+public class Staff {
+	int id;
+	String designation;
+	Address addr;
+}

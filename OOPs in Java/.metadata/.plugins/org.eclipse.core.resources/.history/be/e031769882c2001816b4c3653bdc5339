@@ -1,0 +1,26 @@
+//Constuctor Overloading
+
+public class Student {
+	int rollno;
+	String name;
+	int age;
+	static String college = "ABC";
+	Student(int r, String n){
+		rollno = r;
+		name = n;
+	}
+	Student(int r, String n, int a){
+		rollno = r;
+		name = n;
+		age = a;
+	}
+	public void display() {
+		System.out.println(rollno+" "+name+" "+college);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,43 @@
+//class - type
+//Employee - class name
+public class Employee {
+	// int, String - primitive type
+	int id; //instance variables
+	
+	String name; //instance variables
+	
+	String companyName; //instance variables
+	
+	//static is associated with class not instance of the class
+	static String country = "India"; //static variables
+	
+	public void dispaly() {
+		System.out.println(id+" "+name+" "+companyName+" "+country);
+	}
+	
+	public static void main(String args[]) {
+		//object emp1, emp2 creation of type Employee
+		Employee emp1 = new Employee();
+		Employee emp2 = new Employee();
+		emp1.id = 111;
+		emp1.name = "Sri";
+		emp1.companyName = "ABC";
+		
+		emp1.dispaly();
+		
+		emp2.id = 222;
+		emp2.name = "Ranjani";
+		emp2.companyName = "XYZ";
+		
+		emp1.dispaly();
+		
+		//emp1.country = "India";
+		
+		Employee.country = "India";
+		
+		emp1.dispaly();
+		emp2.dispaly();
+	}
+	
+	
+}

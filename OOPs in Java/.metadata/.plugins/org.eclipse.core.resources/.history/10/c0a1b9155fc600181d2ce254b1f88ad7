@@ -1,0 +1,16 @@
+
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+import org.junit.jupiter.api.Test;
+
+class TestInheritance {
+
+	@Test
+	void test() {
+		BabyDog puppy = new BabyDog();
+		Assert.assertEquals("BabyDog playing", puppy.play());
+	}
+
+}

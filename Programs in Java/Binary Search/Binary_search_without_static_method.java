@@ -1,0 +1,48 @@
+public class BinarySearch {
+  public void binarySearch(int arr[], int key, int l, int h) {
+  	int mid = (l + h)/2;
+    if(l <= h){
+      if(key == arr[mid]){
+        System.out.println("Key = " +key+ ", Found at array index: " +mid);
+      }
+      else if(key < arr[mid]){
+      	binarySearch(arr, key, l, mid);
+      }
+      else if(key > arr[mid]){
+        binarySearch(arr, key, mid+1, h);
+      }
+      else {
+       return;
+      }  
+    }
+    else {
+      System.out.println("Key not Found!!");
+    }
+  }
+    
+  public static void main(String args[]) {
+    int arr[] = {1,3,5,8,9,11,15,21,27};
+    int l = 0;
+    int h = arr.length-1;
+    
+    BinarySearch ob = new BinarySearch();
+    
+    int key1 = 8;
+    ob.binarySearch(arr, key1, l, h);
+      
+    int key2 = 9;
+    ob.binarySearch(arr, key2, l, h);
+    
+    int key3 = 21;
+    ob.binarySearch(arr, key3, l, h);
+        
+    int key4 = 50;
+    ob.binarySearch(arr, key4, l, h);
+
+    int key5 = 27;
+    ob.binarySearch(arr, key5, l, h);
+
+    int key6 = 1;
+    ob.binarySearch(arr, key6, l, h);
+ 	}
+}

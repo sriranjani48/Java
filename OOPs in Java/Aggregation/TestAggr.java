@@ -1,0 +1,27 @@
+
+public class TestAggr {
+	
+	public static void main(String[] args) {
+		
+		Address ad = new Address();
+		ad.city = "MapleRidge";
+		ad.country = "Canada";
+		ad.code = 1234;
+		
+		Student s1 = new Student();
+		s1.rollno = 1;
+		s1.name = "Sri";
+		s1.addr = ad;
+		
+		s1.display();
+		
+		Staff st = new Staff();
+		st.id = 789;
+		st.designation = "Teaching";
+		st.addr = ad;
+		
+		st.display();
+
+	}
+
+}

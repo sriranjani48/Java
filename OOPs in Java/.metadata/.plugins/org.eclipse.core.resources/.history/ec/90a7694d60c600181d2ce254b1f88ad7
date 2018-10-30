@@ -1,0 +1,6 @@
+
+public class Circle extends Shape {
+	String draw() {
+		System.out.println("Drawing Circle");
+	}
+}

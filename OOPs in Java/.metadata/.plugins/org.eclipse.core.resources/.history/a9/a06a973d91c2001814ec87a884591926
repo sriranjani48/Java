@@ -1,0 +1,11 @@
+
+public class Multilevel {
+
+	public static void main(String[] args) {
+		BabyDog ob = new BabyDog();
+			ob.play();
+			ob.makeSound();
+			ob.eat();
+	}
+
+}

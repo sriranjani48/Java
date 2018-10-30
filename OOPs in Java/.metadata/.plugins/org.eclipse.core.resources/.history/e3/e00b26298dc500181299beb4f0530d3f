@@ -1,0 +1,6 @@
+
+public class Rectangle implements Coloring {
+	public void color() {
+		System.out.println("Fill color");
+	}
+}

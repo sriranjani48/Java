@@ -1,0 +1,13 @@
+
+public class TestInheritance {
+
+	public static void main(String[] args) {
+		Cat sound = new Cat();
+		sound.makeSound();
+		
+		Lion sound = new Lion();
+		sound.makeSound();
+
+	}
+
+}

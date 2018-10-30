@@ -1,0 +1,15 @@
+package testing;
+
+import org.junit.Test;
+
+public class TestConstructor {
+
+	@Test
+	public void test() {
+		Student student = new Student(111, "Sri");
+		String output = student.display();
+		System.out.println(output);
+		//Assert.assertEquals("111 Sri",output);
+	}
+
+}

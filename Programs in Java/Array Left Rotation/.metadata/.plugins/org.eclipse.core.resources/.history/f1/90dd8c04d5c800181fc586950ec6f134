@@ -1,0 +1,19 @@
+//import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class LeftRotationTest {
+
+	@Test
+	public void test() {
+		LeftRotation rotatedArray = new LeftRotation();
+		int arr[] = {1,2,3,4,5,6};
+		//int[] result = rotatedArray.arrayRotation(6, arr, 2);
+		System.out.println(result);		
+		//assertEquals([3, 4, 5, 6, 1, 2], result);
+	}
+
+
+}

@@ -1,0 +1,25 @@
+
+public class Calculation {
+	int point = 0;
+	static int count = 0;
+	//constructor
+	Calculation(){
+		point++;
+		count++;
+		System.out.println(point);
+		System.out.println(count);
+	}
+
+	//static method
+	public static void Display() {
+		//point++; - can't use non-static variable inside static method
+		count++;
+		System.out.println(count);
+	}
+
+	public static void main(String args[]) {
+		Calculation c1 = new Calculation();
+		c1.Display();
+		/Calculation.Display();
+	}
+}

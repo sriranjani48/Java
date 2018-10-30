@@ -1,0 +1,15 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestAbstraction {
+
+	@Test
+	void testShape() {
+		Shape rectangle = new Rectangle();
+		
+		assertEquals("Drawing Rectangle", rectangle.draw());
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class BabyDog extends Dog {
+	public void play() {
+		System.out.println("Playing");
+	}
+	public static void main(String[] args) {
+		BabyDog ob = new BabyDog();
+			ob.play();
+			ob.makeSound();
+			ob.eat();
+	}
+}

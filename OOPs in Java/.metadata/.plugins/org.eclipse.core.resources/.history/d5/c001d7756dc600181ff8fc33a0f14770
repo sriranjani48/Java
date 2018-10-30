@@ -1,0 +1,14 @@
+package testing;
+
+public class Student {
+	int rollno;
+	String name;
+	private Student(int srollno, String sname) {
+		rollno = srollno;
+		name = sname;
+	}
+	public void display() {
+		System.out.println(rollno+" "+name);
+		
+	}
+}

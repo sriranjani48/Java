@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+D:\Learning Java Programs\Unit Testing - JUnit\.metadata\.plugins\org.eclipse.jdt.core
+826074121.index
+1219714499.index
+1112950586.index
+3234148884.index
+1004278753.index
+3682230866.index
+3996102163.index
+1200352487.index
+4113954975.index
+3631149818.index
+2697083591.index
+3697936479.index
+724029964.index
+4269334695.index
+3704433825.index

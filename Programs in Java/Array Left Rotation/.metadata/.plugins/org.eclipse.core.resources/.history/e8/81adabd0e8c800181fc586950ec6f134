@@ -1,0 +1,29 @@
+
+public class LinkeList {
+
+	public class Node {
+		int data;
+		Node next;
+
+		Node(int val) {
+			data = val;
+			next = null;
+		}
+
+	}
+	
+	public void insertion(Node head, int data) {
+		if(head == null) {
+			head = new Node(data);
+		}
+		while(head.next != null) {
+			head = head.next;
+		}
+		head.next = new Node(data);
+	}
+	
+	public static void main(String[] args) {
+		LinkedList singlylist = new LinkedList();  
+	}
+
+}

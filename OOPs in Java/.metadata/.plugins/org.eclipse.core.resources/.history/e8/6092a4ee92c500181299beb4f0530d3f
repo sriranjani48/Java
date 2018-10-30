@@ -1,0 +1,7 @@
+
+public abstract class Girl implements walking {
+	abstract void dance();
+	public void talk() {
+		System.out.println("Girl is Talking");
+	}
+}

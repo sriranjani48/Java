@@ -1,0 +1,13 @@
+
+public class TestAggr {
+	
+	public void display() {
+		System.out.println(city+" "+country+" "+code);
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

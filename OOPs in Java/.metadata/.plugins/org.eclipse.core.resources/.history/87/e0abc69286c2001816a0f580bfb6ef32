@@ -1,0 +1,14 @@
+
+public class Calculation {
+	static int count = 0;
+
+	public static void Display() {
+		count++;
+		System.out.println(count);
+	}
+
+	public static void main(String args[]) {
+		Calculation.Display();
+		Calculation.Display();
+	}
+}

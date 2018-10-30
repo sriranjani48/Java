@@ -1,0 +1,18 @@
+
+public class Rectangle {
+int length;
+int breadth;
+Rectangle(){
+	System.out.println("Area = " + length*breadth);
+}
+Rectangle(int l, int b){
+	length = l;
+	breadth = b;
+	System.out.println("Area = "+ length*breadth);
+}
+public static void main(String args[]) {
+	Rectangle ob1 = new Rectangle();
+	Rectangle ob2 = new Rectangle(5, 10);
+	
+}
+}

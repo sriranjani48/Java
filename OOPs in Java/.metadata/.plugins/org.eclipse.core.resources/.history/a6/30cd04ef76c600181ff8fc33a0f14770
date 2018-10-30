@@ -1,0 +1,24 @@
+//we can't create instance of Student class from outside the class(i.e. we cant't create in TestStudent class.). 
+package testing;
+
+public class Student {
+	int rollno;
+	String name;
+	//private constructor
+	 Student(int srollno, String sname) {
+		rollno = srollno;
+		name = sname;
+	}
+	public String display() {
+		return(rollno+", "+name);
+		//System.out.println(name);
+		//return null;
+		
+	}
+	public static void main(String[] args) {
+		Student student = new Student(111, "Sri");
+		Student anotherStudent = new Student(222, "Ranjani");
+		student.display();
+		anotherStudent.display();
+	}
+}

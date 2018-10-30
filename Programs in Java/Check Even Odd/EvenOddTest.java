@@ -1,0 +1,15 @@
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+class EvenOddTest {
+
+	@Test
+	void testEvenodd() {
+		EvenOdd ob = new EvenOdd();		
+		Assert.assertEquals("Even", ob.evenodd(10));
+		Assert.assertEquals("Odd", ob.evenodd(1111));
+		Assert.assertEquals(null, ob.evenodd(0));
+	}
+
+}

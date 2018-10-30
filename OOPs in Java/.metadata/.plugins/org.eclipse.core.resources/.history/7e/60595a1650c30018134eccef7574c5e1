@@ -1,0 +1,16 @@
+
+public abstract class Shape {
+	
+	//constructor of abstract class
+	Shape(){
+		System.out.println("Drawing Shape");
+	}
+	
+	abstract void draw(); //abstract method
+	String color = "Red"; 
+	//non-abstract method
+	public void display() {
+		System.out.println("Display Shape");
+	}
+
+}

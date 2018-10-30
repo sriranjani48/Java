@@ -1,0 +1,20 @@
+import static org.junit.Assert.*;
+
+import java.util.Arrays;
+
+import org.junit.Test;
+
+public class LeftRotationTest {
+
+	@Test
+	public void test() {
+		LeftRotation rotatedArray = new LeftRotation();
+		
+		int arr[] = {1,2,3,4,5,6};
+		String actualResult = Arrays.toString(rotatedArray.arrayRotation(6, arr, 2));
+		assertEquals("[3, 4, 5, 6, 1, 2]", actualResult);
+		assertNotEquals("[1,2,3,4,5,6]", actualResult);
+	}
+
+
+}

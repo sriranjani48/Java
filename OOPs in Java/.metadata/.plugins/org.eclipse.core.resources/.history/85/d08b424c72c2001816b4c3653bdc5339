@@ -1,0 +1,25 @@
+
+public class CopyConstructor {
+int rollno;
+String name;
+static String college;
+
+CopyConstructor(int r, String n) {
+	rollno = r;
+	name = n;
+}
+public void display(CopyConstuctor student) {
+	/*rollno = student.rollno;
+	 * name = student.name;
+	 * System.out.println(rollno+" "+name+" "+college);
+	 */
+	System.out.println(student.rollno+" "+student.name+" "+college);
+}
+public static void main(String args[]) {
+	CopyConstructor s1 = new CopyConstuctor(111, "Sri");
+	CopyConstructor s2 = new CopyConstuctor(222, "Ranjani");
+	CopyConstructor.college = "ABC";
+	s1.display();
+	
+}
+}

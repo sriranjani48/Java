@@ -1,0 +1,9 @@
+
+public class MyPage implements Printable, Showable {
+	public void print() {
+		System.out.println("Hello MyPage");
+	}
+	public void show() {
+		System.out.println("Welcome");
+	}
+}

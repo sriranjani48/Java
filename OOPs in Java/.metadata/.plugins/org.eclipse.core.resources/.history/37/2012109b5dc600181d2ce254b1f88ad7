@@ -1,0 +1,15 @@
+package Testing;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestingInheritance {
+
+	@Test
+	void test() {
+		TestAnimal puppy = new TestAnimal();
+		
+	}
+
+}

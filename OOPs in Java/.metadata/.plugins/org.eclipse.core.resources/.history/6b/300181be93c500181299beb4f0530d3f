@@ -1,0 +1,10 @@
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		walking girl = new Person();
+		girl.walk();
+
+	}
+
+}

@@ -1,0 +1,10 @@
+import java.io.FileInputStream;
+
+public class ReadFile {
+	FileInputStream fin = new FileInputStream("MyFile.txt");
+	int i = fin.read();
+	System.out.print((char)i);
+	fin.close();
+	
+
+}

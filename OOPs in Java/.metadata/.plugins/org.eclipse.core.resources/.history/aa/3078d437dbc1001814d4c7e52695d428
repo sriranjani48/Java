@@ -1,0 +1,34 @@
+
+public class PrimeNumbers {
+	
+	public static int prime(int num) { 
+		int count;
+		if(num < 1) {
+			return num;
+		}
+		else {
+			for(int i = 1; i <= num; i++) {
+				count = 0;
+				for(int j = 2; j <= num/2; j++) {
+					if(i % j == 0) {
+						count++;
+						break;
+					}
+					
+				}
+				if(count == 0 && i != 1) {
+					System.out.println(i + " ");
+				}
+				
+			}
+			
+		}
+		return 0;
+	}
+	
+	public static void main(String[] args) {
+		prime(10);
+
+	}
+
+}

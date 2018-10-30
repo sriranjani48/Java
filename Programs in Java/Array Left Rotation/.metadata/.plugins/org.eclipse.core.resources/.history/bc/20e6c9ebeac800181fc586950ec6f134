@@ -1,0 +1,49 @@
+
+public class SinglyLinkedList {
+	
+	public class Node {
+		int data;
+		Node next;
+
+		Node(int val) {
+			data = val;
+			next = null;
+		}
+
+	}
+	
+	Node head;
+	
+	public void insertion(int data) {
+		//if(head == null) {
+			head = new Node(data);
+		//}
+		while(head.next != null) {
+			head = head.next;
+		}
+		head.next = new Node(data);
+		return;
+	}
+	
+	public void printList() {
+		Node printNode = head;
+		while(printNode != null) {
+			System.out.println(printNode.data+" ");
+			printNode = printNode.next;
+		}
+	}
+		
+	
+	public static void main(String[] args) {
+		SinglyLinkedList singlyList = new SinglyLinkedList();  
+		singlyList.insertion(2);
+		singlyList.insertion(25);
+		singlyList.insertion(10);
+		singlyList.insertion(6);
+		singlyList.printList();
+	}
+
+}
+
+
+

@@ -1,0 +1,15 @@
+//Runtime polymorphism
+public class TestPerson {
+
+	public static void main(String[] args) {
+		Person boy = new Boy();
+		boy.talk();
+		boy.eat();
+		
+		Person girl = new Girl();
+		girl.talk();
+		girl.eat();
+
+	}
+
+}

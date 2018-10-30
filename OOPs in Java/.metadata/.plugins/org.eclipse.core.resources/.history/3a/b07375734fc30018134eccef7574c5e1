@@ -1,0 +1,9 @@
+
+public abstract class Shape {
+	abstract void draw();
+	String color = "Red";
+	public void display() {
+		System.out.println("Display Shape");
+	}
+
+}
